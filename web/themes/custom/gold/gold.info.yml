@@ -1,0 +1,20 @@
+name: Gold
+type: theme
+base theme: stable9
+description: "My Custom Theme"
+core_version_requirement: ^9 || ^10
+version: VERSION
+libraries:
+ - gold/global-style
+
+regions:
+  logo: Logo
+  top_image: Top image
+  navbar: navbar
+  header: Header
+  content: Content
+  main_slider: Main Slider
+  sidebar_first: Sidebar first
+  categories: Categories
+  featured: Featured
+  footer: Footer

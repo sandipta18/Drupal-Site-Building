@@ -1,0 +1,8 @@
+customModule.customPage:
+  path: '/customModule'
+  defaults:
+    _controller: '\Drupal\customModule\Controller\CustomController::customPage'
+    _title: 'This is a custom module'
+  requirements:
+      _permission: 'access content'
+

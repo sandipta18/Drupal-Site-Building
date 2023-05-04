@@ -1,0 +1,11 @@
+<?php
+function customModuletheme($existing, $type, $theme, $path) {
+  return [
+   'custom-listing' => [
+    'variables' => ['content' => NULL]
+   ]
+  ];
+}
+
+
+

@@ -1,0 +1,6 @@
+name: Custom General
+description: 'Drupal 10 Custom Module'
+type: module
+package: Custom Modules
+core_version_requirement: ^9 || ^10
+core: 10.x
