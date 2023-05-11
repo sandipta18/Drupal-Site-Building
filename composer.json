@@ -12,11 +12,25 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "daneden/animate.css",
+                "version": "3.7.2",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/animate-css/animate.css.git",
+                    "type": "git",
+                    "reference": "v4.1.1"
+                }
+            }
         }
     ],
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.3",
+        "drupal/animate_any": "^3.1",
         "drupal/asset_injector": "^2.16",
         "drupal/block_content_permissions": "^1.11",
         "drupal/bootstrap": "^3.28",
@@ -36,15 +50,18 @@
         "drupal/gtranslate": "^3.0",
         "drupal/menu_migration": "^2.0@alpha",
         "drupal/mili": "^10.1",
+        "drupal/oauth_login_oauth2": "^3.0",
         "drupal/one_time_login_link_admin": "^1.0",
         "drupal/openai": "^1.0@alpha",
         "drupal/pathauto": "^1.11",
         "drupal/quickedit": "^1.0",
+        "drupal/search_api": "^1.29",
         "drupal/smtp": "^1.2",
         "drupal/switch_page_theme": "^4.0",
         "drupal/tara": "^10.0",
         "drupal/time_field": "^2.1",
         "drupal/token": "^1.11",
+        "drupal/user_online_status": "^1.2",
         "drupal/views_taxonomy_term_name_depth": "^7.2",
         "drupal/webform": "^6.2@beta",
         "drush/drush": "^11.5"

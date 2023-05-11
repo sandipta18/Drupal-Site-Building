@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "380c007a2c61fe4fc435fb39ba166b25",
+    "content-hash": "a9c3d056962399e4d2476f54fbb2a859",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1451,18 +1451,66 @@
             }
         },
         {
-            "name": "drupal/asset_injector",
-            "version": "2.16.0",
+            "name": "drupal/animate_any",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/asset_injector.git",
-                "reference": "8.x-2.16"
+                "url": "https://git.drupalcode.org/project/animate_any.git",
+                "reference": "3.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.16.zip",
-                "reference": "8.x-2.16",
-                "shasum": "34965a20c346c2fbcf14b690166b070070837a13"
+                "url": "https://ftp.drupal.org/files/projects/animate_any-3.1.0.zip",
+                "reference": "3.1.0",
+                "shasum": "278b9b1d0c11c68e300c03d43061b9c36c1d1189"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.1.0",
+                    "datestamp": "1655449548",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "harpreet16",
+                    "homepage": "https://www.drupal.org/user/3534256"
+                },
+                {
+                    "name": "virajrajankar",
+                    "homepage": "https://www.drupal.org/user/3164807"
+                }
+            ],
+            "description": "Integrates CSS animate.css to apply animation to your site.",
+            "homepage": "https://www.drupal.org/project/animate_any",
+            "support": {
+                "source": "https://git.drupalcode.org/project/animate_any"
+            }
+        },
+        {
+            "name": "drupal/asset_injector",
+            "version": "2.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/asset_injector.git",
+                "reference": "8.x-2.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.17.zip",
+                "reference": "8.x-2.17",
+                "shasum": "e273ba3c8736a25496caf9e7a7b0e47e6052594c"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10.0"
@@ -1470,8 +1518,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.16",
-                    "datestamp": "1672243573",
+                    "version": "8.x-2.17",
+                    "datestamp": "1683305302",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2722,6 +2770,62 @@
             }
         },
         {
+            "name": "drupal/oauth_login_oauth2",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/oauth_login_oauth2.git",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/oauth_login_oauth2-3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": "44883cfd0395f9a28cd0990d613cf34fac98ef5a"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.2",
+                    "datestamp": "1675654986",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "abhay19",
+                    "homepage": "https://www.drupal.org/user/3549350"
+                },
+                {
+                    "name": "arsh244",
+                    "homepage": "https://www.drupal.org/user/3619504"
+                },
+                {
+                    "name": "gauravsood91",
+                    "homepage": "https://www.drupal.org/user/3288491"
+                },
+                {
+                    "name": "Shrishail Hiremath",
+                    "homepage": "https://www.drupal.org/user/3669372"
+                }
+            ],
+            "description": "This module allows you to login in your Drupal site  using any oauth2 or openID compliant server.",
+            "homepage": "https://www.drupal.org/project/oauth_login_oauth2",
+            "support": {
+                "source": "https://git.drupalcode.org/project/oauth_login_oauth2"
+            }
+        },
+        {
             "name": "drupal/one_time_login_link_admin",
             "version": "1.0.7",
             "source": {
@@ -2979,6 +3083,78 @@
             "homepage": "https://www.drupal.org/project/quickedit",
             "support": {
                 "source": "https://git.drupalcode.org/project/quickedit"
+            }
+        },
+        {
+            "name": "drupal/search_api",
+            "version": "1.29.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/search_api.git",
+                "reference": "8.x-1.29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.29.zip",
+                "reference": "8.x-1.29",
+                "shasum": "4663abbcfe5dfc159ee0886fc6c437e998fc0653"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10.0"
+            },
+            "conflict": {
+                "drupal/search_api_solr": "2.* || 3.0 || 3.1"
+            },
+            "require-dev": {
+                "drupal/language_fallback_fix": "@dev",
+                "drupal/search_api_autocomplete": "@dev",
+                "drupal/search_api_db": "*"
+            },
+            "suggest": {
+                "drupal/facets": "Adds the ability to create faceted searches.",
+                "drupal/search_api_autocomplete": "Allows adding autocomplete suggestions to search fields.",
+                "drupal/search_api_solr": "Adds support for using Apache Solr as a backend."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.29",
+                    "datestamp": "1679910252",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Seidl",
+                    "homepage": "https://www.drupal.org/u/drunken-monkey"
+                },
+                {
+                    "name": "Nick Veenhof",
+                    "homepage": "https://www.drupal.org/u/nick_vh"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/790418/committers"
+                }
+            ],
+            "description": "Provides a generic framework for modules offering search capabilities.",
+            "homepage": "https://www.drupal.org/project/search_api",
+            "support": {
+                "source": "https://git.drupalcode.org/project/search_api",
+                "issues": "https://www.drupal.org/project/issues/search_api",
+                "irc": "irc://irc.freenode.org/drupal-search-api"
             }
         },
         {
@@ -3277,6 +3453,54 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
+            "name": "drupal/user_online_status",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/user_online_status.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/user_online_status-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "8288ca49be0bd8ceaa66e23f63a390eab2476ce6"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1658662410",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "arthur_lorenz",
+                    "homepage": "https://www.drupal.org/user/3529915"
+                },
+                {
+                    "name": "leymannx",
+                    "homepage": "https://www.drupal.org/user/2482808"
+                }
+            ],
+            "description": "Show if a user is online or offline on their account page.",
+            "homepage": "https://www.drupal.org/project/user_online_status",
+            "support": {
+                "source": "https://git.drupalcode.org/project/user_online_status"
             }
         },
         {
@@ -3858,16 +4082,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.298.0",
+            "version": "v0.299.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "68710abd2b921f5df4ae99412fc05bac268acddc"
+                "reference": "cb6495dd548c6fc88133177fde3888ce9dcaabdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/68710abd2b921f5df4ae99412fc05bac268acddc",
-                "reference": "68710abd2b921f5df4ae99412fc05bac268acddc",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/cb6495dd548c6fc88133177fde3888ce9dcaabdd",
+                "reference": "cb6495dd548c6fc88133177fde3888ce9dcaabdd",
                 "shasum": ""
             },
             "require": {
@@ -3896,9 +4120,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.298.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.299.0"
             },
-            "time": "2023-05-01T01:06:14+00:00"
+            "time": "2023-05-06T01:04:14+00:00"
         },
         {
             "name": "google/auth",
@@ -5792,16 +6016,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.16",
+            "version": "v0.11.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "151b145906804eea8e5d71fea23bfb470c904bfb"
+                "reference": "3dc5d4018dabd80bceb8fe1e3191ba8460569f0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/151b145906804eea8e5d71fea23bfb470c904bfb",
-                "reference": "151b145906804eea8e5d71fea23bfb470c904bfb",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/3dc5d4018dabd80bceb8fe1e3191ba8460569f0a",
+                "reference": "3dc5d4018dabd80bceb8fe1e3191ba8460569f0a",
                 "shasum": ""
             },
             "require": {
@@ -5862,9 +6086,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.16"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.17"
             },
-            "time": "2023-04-26T12:53:57+00:00"
+            "time": "2023-05-05T20:02:42+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
