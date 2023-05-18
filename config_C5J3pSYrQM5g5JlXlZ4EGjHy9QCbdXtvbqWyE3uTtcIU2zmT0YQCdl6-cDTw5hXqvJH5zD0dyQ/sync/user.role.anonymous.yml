@@ -1,0 +1,26 @@
+uuid: ad187600-c058-4de2-a226-e663e986bdac
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - contact
+    - filter
+    - forum
+    - system
+    - user_online_status
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'administer forums'
+  - 'administer user online status'
+  - 'use text format restricted_html'

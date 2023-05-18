@@ -1,0 +1,10 @@
+uuid: c6608eef-b6d4-4354-8b16-6559d3956f5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.custom_2
+label: 'Custom 2'
+targetEntityType: node
+cache: true

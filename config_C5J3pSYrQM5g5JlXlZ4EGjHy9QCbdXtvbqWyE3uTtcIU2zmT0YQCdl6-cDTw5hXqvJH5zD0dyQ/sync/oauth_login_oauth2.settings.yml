@@ -1,0 +1,37 @@
+miniorange_oauth_client_customer_id: ''
+miniorange_oauth_client_customer_admin_token: ''
+miniorange_oauth_client_customer_api_key: ''
+miniorange_oauth_client_status: ''
+miniorange_oauth_client_customer_admin_phone: null
+miniorange_oauth_client_tx_id: null
+miniorange_oauth_client_customer_admin_password: ''
+miniorange_oauth_client_base_url: ''
+miniorange_oauth_enable_login_with_oauth: true
+miniorange_oauth_send_with_header_oauth: false
+miniorange_oauth_send_with_body_oauth: true
+miniorange_auth_client_access_token_status: 'Access Token received: 1 And ID Token received: 1'
+miniorange_auth_client_userinfo_status: 'Userinfo received successfully.'
+miniorange_auth_client_test_configuration_status: Successful
+miniorange_auth_client_sso_status: Successful
+_core:
+  default_config_hash: Gsf7QNhskndX6LxDr_YCUtkE0jTOPHG4_OKhQ4QkaJk
+miniorange_oauth_client_username_attribute: ''
+miniorange_oauth_client_feedback: '1'
+miniorange_auth_client_callback_uri: 'http://mysite.com/mo_login'
+miniorange_oauth_uninstall_status: 0
+miniorange_oauth_login_config_status: final_summary
+miniorange_oauth_login_config_application: google
+miniorange_auth_client_display_link: 'Login using google'
+miniorange_auth_client_client_id: 337971776826-b165dulva4nd5ucoam84kp0ko4iukoem.apps.googleusercontent.com
+miniorange_auth_client_client_secret: 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
+miniorange_auth_client_scope: email
+miniorange_oauth_client_discovery_url: ''
+miniorange_auth_client_authorize_endpoint: 'https://accounts.google.com/o/oauth2/auth'
+miniorange_auth_client_access_token_ep: 'https://www.googleapis.com/oauth2/v4/token'
+miniorange_auth_client_user_info_ep: 'https://www.googleapis.com/oauth2/v1/userinfo'
+'http://mysite':
+  com/mo_login: ''
+'': 0
+miniorange_oauth_client_attr_list_from_server: '{"id":"109586703505764410872","email":"sandysardar1800@gmail.com","verified_email":true,"picture":"https:\/\/lh3.googleusercontent.com\/a\/default-user=s96-c"}'
+miniorange_oauth_client_show_attr_list_from_server: '{"id":"109586703505764410872","email":"sandysardar1800@gmail.com","verified_email":true,"picture":"https:\/\/lh3.googleusercontent.com\/a\/default-user=s96-c"}'
+miniorange_oauth_client_email_attr_val: email

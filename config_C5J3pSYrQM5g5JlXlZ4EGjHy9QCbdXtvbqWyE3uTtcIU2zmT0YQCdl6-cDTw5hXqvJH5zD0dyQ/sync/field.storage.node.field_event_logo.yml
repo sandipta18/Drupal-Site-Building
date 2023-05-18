@@ -1,0 +1,30 @@
+uuid: 9f31225e-514e-4133-9361-aada40e0091b
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_event_logo
+field_name: field_event_logo
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: 7617d234-e68e-4102-b9e1-4a079301e5c6
+    alt: ''
+    title: ''
+    width: 4000
+    height: 2599
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

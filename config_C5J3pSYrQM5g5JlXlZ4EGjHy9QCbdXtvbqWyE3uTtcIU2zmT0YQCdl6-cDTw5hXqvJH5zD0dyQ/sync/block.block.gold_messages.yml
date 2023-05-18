@@ -1,0 +1,22 @@
+uuid: 934d652e-e627-4482-8b11-8256c8ac81aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gold
+_core:
+  default_config_hash: LOWXEGDu4TeUgntHKyCZ17GaqOllWNKDlUNB3zXrPZM
+id: gold_messages
+theme: gold
+region: logo
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

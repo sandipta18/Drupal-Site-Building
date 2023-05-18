@@ -1,0 +1,20 @@
+uuid: 8906654e-e5f7-4561-9203-eace8c542a34
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.forum
+  module:
+    - path
+id: node.forum.path
+field_name: path
+entity_type: node
+bundle: forum
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

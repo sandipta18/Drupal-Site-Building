@@ -1,0 +1,18 @@
+uuid: 7a67e683-8d9a-4e07-a291-7c1c4aa2bb24
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Sample
+type: sample
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

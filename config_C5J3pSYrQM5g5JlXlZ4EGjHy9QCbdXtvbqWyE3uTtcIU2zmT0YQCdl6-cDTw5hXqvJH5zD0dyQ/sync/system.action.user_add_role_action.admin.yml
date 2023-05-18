@@ -1,0 +1,14 @@
+uuid: 9e27192c-0262-4099-b189-88996ce812fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.admin
+  module:
+    - user
+id: user_add_role_action.admin
+label: 'Add the vendor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: admin

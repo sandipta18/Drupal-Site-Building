@@ -1,0 +1,22 @@
+uuid: 28ed8dd9-b586-4cab-8ce6-6400a42da6c9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gold
+_core:
+  default_config_hash: 7ZTVnbf2iYgHkq33XL7cuHAghUjDBL3Fpq-zwS5psfI
+id: gold_local_tasks
+theme: gold
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

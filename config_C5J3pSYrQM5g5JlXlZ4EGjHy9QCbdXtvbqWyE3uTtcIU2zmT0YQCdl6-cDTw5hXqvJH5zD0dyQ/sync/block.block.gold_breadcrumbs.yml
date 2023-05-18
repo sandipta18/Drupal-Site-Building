@@ -1,0 +1,22 @@
+uuid: 5930d307-0348-44c1-980c-a451d17584bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gold
+_core:
+  default_config_hash: ZZjEYJJ6DABe-CfukWy8Ts26QoT--Kt549NDmOq0ygY
+id: gold_breadcrumbs
+theme: gold
+region: logo
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

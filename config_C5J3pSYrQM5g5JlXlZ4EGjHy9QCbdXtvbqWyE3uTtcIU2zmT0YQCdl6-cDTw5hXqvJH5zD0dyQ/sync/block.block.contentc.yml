@@ -1,0 +1,25 @@
+uuid: f25fe102-03b6-4f0e-bcd0-19cd1de26948
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3151f0c6-f230-4ce3-bc4a-61b03f7b3c01'
+  module:
+    - block_content
+  theme:
+    - mili
+id: contentc
+theme: mili
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:3151f0c6-f230-4ce3-bc4a-61b03f7b3c01'
+settings:
+  id: 'block_content:3151f0c6-f230-4ce3-bc4a-61b03f7b3c01'
+  label: 'Content C'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

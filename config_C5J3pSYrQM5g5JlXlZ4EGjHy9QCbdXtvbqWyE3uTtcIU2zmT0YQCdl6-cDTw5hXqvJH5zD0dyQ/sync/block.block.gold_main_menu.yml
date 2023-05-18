@@ -1,0 +1,27 @@
+uuid: 5d8a09df-9143-4671-a79b-d5a666c01149
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - gold
+_core:
+  default_config_hash: _wh67kdyKHVq2z9fYbH3mJcHq5Hn7AJszCFlfSBP_Z0
+id: gold_main_menu
+theme: gold
+region: logo
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 5
+  expand_all_items: false
+visibility: {  }

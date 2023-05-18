@@ -1,0 +1,18 @@
+uuid: f31b9c47-2fce-4194-9fc9-56021c06cd5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_contact_ema
+field_name: field_contact_ema
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

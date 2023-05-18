@@ -1,0 +1,21 @@
+uuid: 298349fc-5c64-43c3-9184-aaaa8b0a6443
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: content_spacing
+label: content-spacing
+code: |-
+  .content-spacing .views-col {
+  	padding: 20px;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: mili
+contexts: {  }
+conditions_require_all: true

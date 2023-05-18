@@ -1,0 +1,25 @@
+uuid: e3f104bc-28bf-4e8b-b651-217bbe6b21f6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bcebd376-43bc-463c-8d9b-3e742df82004'
+  module:
+    - block_content
+  theme:
+    - mili
+id: contactus
+theme: mili
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:bcebd376-43bc-463c-8d9b-3e742df82004'
+settings:
+  id: 'block_content:bcebd376-43bc-463c-8d9b-3e742df82004'
+  label: 'Contact Us'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

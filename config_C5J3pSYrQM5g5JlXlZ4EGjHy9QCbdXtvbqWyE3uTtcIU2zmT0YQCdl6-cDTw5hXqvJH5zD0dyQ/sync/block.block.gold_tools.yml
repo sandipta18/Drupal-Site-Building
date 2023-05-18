@@ -1,0 +1,27 @@
+uuid: e49061d5-7704-47c1-8c68-2df699b2a4b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - gold
+_core:
+  default_config_hash: BNQ8vfZa2AEhKfG6ic1-kH4fx8fD7vrU7tr4axb0tT8
+id: gold_tools
+theme: gold
+region: logo
+weight: -7
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

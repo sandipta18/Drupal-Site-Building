@@ -1,0 +1,28 @@
+uuid: 858a86bb-a32a-4787-aa99-4d68bb6ed441
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_type
+    - node.type.article
+id: node.article.field_content_type
+field_name: field_content_type
+entity_type: node
+bundle: article
+label: 'Content Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

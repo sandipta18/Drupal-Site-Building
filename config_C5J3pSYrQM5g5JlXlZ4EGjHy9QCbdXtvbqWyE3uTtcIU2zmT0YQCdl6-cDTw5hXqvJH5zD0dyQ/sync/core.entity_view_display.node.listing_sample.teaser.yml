@@ -1,0 +1,33 @@
+uuid: e18e37bc-d34e-489c-82a9-d7e0571c18dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.listing_sample.body
+    - field.field.node.listing_sample.field_list_sample
+    - node.type.listing_sample
+  module:
+    - text
+    - user
+id: node.listing_sample.teaser
+targetEntityType: node
+bundle: listing_sample
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_list_sample: true
+  langcode: true

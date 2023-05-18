@@ -1,0 +1,27 @@
+uuid: 2ef592e5-7613-4ed9-b9b9-9d7792db14b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - gold
+_core:
+  default_config_hash: SI2y9IuOnzp2mVewdcLfuyZdQO0iiiJx0E0XDImSpIU
+id: gold_footer
+theme: gold
+region: logo
+weight: -11
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

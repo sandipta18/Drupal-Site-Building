@@ -1,0 +1,29 @@
+uuid: 9c7a4ffd-ea70-4b75-85b4-ddcd76837352
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recently_added_articles
+  module:
+    - system
+    - views
+  theme:
+    - gold
+id: gold_views_block__recently_added_articles_block_1
+theme: gold
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:recently_added_articles-block_1'
+settings:
+  id: 'views_block:recently_added_articles-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "mysite.com\r\n/event\r\n/upcoming-events\r\n/article/\r\n/event/"

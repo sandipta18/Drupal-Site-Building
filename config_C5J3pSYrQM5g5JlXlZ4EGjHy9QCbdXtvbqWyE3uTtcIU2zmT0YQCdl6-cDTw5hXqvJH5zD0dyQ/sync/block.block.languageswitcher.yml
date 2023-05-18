@@ -1,0 +1,30 @@
+uuid: 7c91269f-734c-4be1-97fa-6a712c4512f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - mili
+id: languageswitcher
+theme: mili
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: visible
+  provider: language
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+      de: de
+      ru: ru
+      ar: ar

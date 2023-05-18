@@ -1,0 +1,20 @@
+uuid: 989ea347-ed79-468f-a39e-80ab1800a96a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.user_groups
+id: node.user_groups.uid
+field_name: uid
+entity_type: node
+bundle: user_groups
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

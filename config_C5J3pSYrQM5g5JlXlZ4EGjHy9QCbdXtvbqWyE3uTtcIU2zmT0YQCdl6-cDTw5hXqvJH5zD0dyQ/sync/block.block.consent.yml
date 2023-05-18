@@ -1,0 +1,25 @@
+uuid: 90673ae8-cd77-4cb9-bcf9-1c16dc205430
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5a40ac97-515a-4be5-8052-738170c88168'
+  module:
+    - block_content
+  theme:
+    - mili
+id: consent
+theme: mili
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:5a40ac97-515a-4be5-8052-738170c88168'
+settings:
+  id: 'block_content:5a40ac97-515a-4be5-8052-738170c88168'
+  label: Consent
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

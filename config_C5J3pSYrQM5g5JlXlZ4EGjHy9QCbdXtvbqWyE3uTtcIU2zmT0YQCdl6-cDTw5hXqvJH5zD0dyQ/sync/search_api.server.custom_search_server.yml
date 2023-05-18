@@ -1,0 +1,14 @@
+uuid: 7d65ece9-f627-445c-aee7-fa6b1aa35778
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: custom_search_server
+name: 'Custom Search Server'
+description: 'This is a custom-designed search server'
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: prefix

@@ -1,0 +1,41 @@
+_core:
+  default_config_hash: 1uFogeFphl0Hg6oVCacZZ8mM_0wMZ7PS_RrmLbK5tf0
+favicon:
+  mimetype: image/jpeg
+  path: 'public://self_1.jpeg'
+  url: /sites/default/files/self_1.jpeg
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://seeya_0.png'
+  url: ''
+  use_default: true
+schemas:
+  bootstrap: 8000
+button_size: btn-sm
+forms_required_has_error: 1
+table_responsive: '-1'
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+apply: Apply
+reset_http_request_cache: ''
+table: ''
+breadcrumb_home: 1
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: well
+  help: well
+  content: well
+  sidebar_first: well
+  sidebar_second: well
+  footer: well
+navbar_position: fixed-top

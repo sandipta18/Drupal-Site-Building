@@ -1,0 +1,3 @@
+'::node-content':
+  parent: .node-content
+  identifier: '[{"section_identity":".field","section_event":"mouseover","section_animation":"zoomIn","remove":"Remove"}]'

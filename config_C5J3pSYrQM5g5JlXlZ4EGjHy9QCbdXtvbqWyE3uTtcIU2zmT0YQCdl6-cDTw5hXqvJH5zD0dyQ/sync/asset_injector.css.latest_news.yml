@@ -1,0 +1,15 @@
+uuid: 023000ab-aa94-4abc-a792-289a55eeb770
+langcode: en
+status: true
+dependencies: {  }
+id: latest_news
+label: latest-news
+code: |-
+  .latest-news {
+  	
+  }
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

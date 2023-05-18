@@ -1,0 +1,25 @@
+uuid: f06a78d1-c64e-4de5-be0a-b4447dc807f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: 76745oJ96CFBhSkwa1dqCldF209vwk3WKC8Kv_z2ckg
+id: mili_branding
+theme: mili
+region: site_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

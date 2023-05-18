@@ -1,0 +1,22 @@
+uuid: 75f5dcf2-dc9e-4bc3-86cd-97956f05b148
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.miscellaneous
+id: taxonomy_term.miscellaneous.status
+field_name: status
+entity_type: taxonomy_term
+bundle: miscellaneous
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

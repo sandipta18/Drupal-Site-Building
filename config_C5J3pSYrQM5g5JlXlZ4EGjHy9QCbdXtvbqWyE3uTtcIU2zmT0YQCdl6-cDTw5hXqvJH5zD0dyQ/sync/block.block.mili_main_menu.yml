@@ -1,0 +1,27 @@
+uuid: ec8eef88-94d0-4e2a-bf60-a729d5a6c138
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: _wh67kdyKHVq2z9fYbH3mJcHq5Hn7AJszCFlfSBP_Z0
+id: mili_main_menu
+theme: mili
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 5
+  expand_all_items: true
+visibility: {  }

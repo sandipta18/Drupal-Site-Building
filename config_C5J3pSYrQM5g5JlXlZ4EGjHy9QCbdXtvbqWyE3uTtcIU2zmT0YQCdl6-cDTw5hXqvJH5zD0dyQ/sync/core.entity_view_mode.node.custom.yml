@@ -1,0 +1,10 @@
+uuid: 224d472d-a240-4c89-9d1b-2cefd61d389f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.custom
+label: Custom
+targetEntityType: node
+cache: true

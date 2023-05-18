@@ -1,0 +1,25 @@
+uuid: cb7f3d59-e53b-4f0f-86ad-922c980f7c7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gold
+_core:
+  default_config_hash: 76745oJ96CFBhSkwa1dqCldF209vwk3WKC8Kv_z2ckg
+id: gold_branding
+theme: gold
+region: logo
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

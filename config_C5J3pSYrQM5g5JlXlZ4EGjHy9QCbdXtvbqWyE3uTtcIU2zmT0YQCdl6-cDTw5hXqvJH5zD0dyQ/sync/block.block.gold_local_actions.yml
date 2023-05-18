@@ -1,0 +1,20 @@
+uuid: e3d4326c-6151-4cda-99e0-866d09701569
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gold
+_core:
+  default_config_hash: dm1xYrzAHCahCRIflAXNPW-Zmmm0C4zcWbUg-Kgq2lM
+id: gold_local_actions
+theme: gold
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

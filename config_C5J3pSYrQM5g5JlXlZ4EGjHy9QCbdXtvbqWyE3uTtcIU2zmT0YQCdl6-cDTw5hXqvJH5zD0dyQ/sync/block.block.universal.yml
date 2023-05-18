@@ -1,0 +1,30 @@
+uuid: ece2a109-09f3-49d5-a82c-d7310c77fbc2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a20067c1-b652-467a-8e2f-0472a9f148d5'
+  module:
+    - block_content
+    - system
+  theme:
+    - mili
+id: universal
+theme: mili
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:a20067c1-b652-467a-8e2f-0472a9f148d5'
+settings:
+  id: 'block_content:a20067c1-b652-467a-8e2f-0472a9f148d5'
+  label: Universal
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/article\r\n/article/*\r\n/error"

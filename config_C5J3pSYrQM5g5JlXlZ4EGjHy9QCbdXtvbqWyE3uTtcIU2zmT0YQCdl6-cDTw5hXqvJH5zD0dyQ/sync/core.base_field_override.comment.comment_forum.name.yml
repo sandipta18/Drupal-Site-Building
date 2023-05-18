@@ -1,0 +1,20 @@
+uuid: d2ed0ba7-2648-401f-82d7-f4ec98acb76b
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+id: comment.comment_forum.name
+field_name: name
+entity_type: comment
+bundle: comment_forum
+label: Name
+description: "The comment author's name."
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

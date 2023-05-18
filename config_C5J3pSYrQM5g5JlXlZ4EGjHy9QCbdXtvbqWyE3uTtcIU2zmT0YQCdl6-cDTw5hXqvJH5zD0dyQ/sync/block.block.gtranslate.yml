@@ -1,0 +1,20 @@
+uuid: ebfd2656-2ec2-4085-85a1-cbe4b9884be2
+langcode: en
+status: true
+dependencies:
+  module:
+    - gtranslate
+  theme:
+    - mili
+id: gtranslate
+theme: mili
+region: search_box
+weight: -16
+provider: null
+plugin: gtranslate_block
+settings:
+  id: gtranslate_block
+  label: GTranslate
+  label_display: visible
+  provider: gtranslate
+visibility: {  }

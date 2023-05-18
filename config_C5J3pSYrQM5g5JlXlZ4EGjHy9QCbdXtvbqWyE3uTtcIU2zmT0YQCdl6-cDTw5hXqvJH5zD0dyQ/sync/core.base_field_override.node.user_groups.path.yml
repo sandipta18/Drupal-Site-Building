@@ -1,0 +1,20 @@
+uuid: 31f4657a-64c4-48cc-ab66-00c5fd6bd164
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.user_groups
+  module:
+    - path
+id: node.user_groups.path
+field_name: path
+entity_type: node
+bundle: user_groups
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

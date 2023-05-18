@@ -1,0 +1,22 @@
+uuid: 3d9fe269-6b8a-409e-b588-442508b098f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mili
+_core:
+  default_config_hash: o27xak_9WwWkX0jLkvrTac24jZb7kV0fEZ0mz11QgHs
+id: mili_help
+theme: mili
+region: content
+weight: -14
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 501a2a1a-d417-44d5-ae5b-f9756dcde02b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.miscellaneous
+id: taxonomy_term.miscellaneous.name
+field_name: name
+entity_type: taxonomy_term
+bundle: miscellaneous
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

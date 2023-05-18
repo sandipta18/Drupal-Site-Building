@@ -1,0 +1,29 @@
+uuid: 0bc0eaf3-95b9-4076-8416-afa500ec299f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_latest
+  module:
+    - system
+    - views
+  theme:
+    - mili
+id: views_block__news_latest_block_1
+theme: mili
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:news_latest-block_1'
+settings:
+  id: 'views_block:news_latest-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

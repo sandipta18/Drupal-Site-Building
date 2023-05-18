@@ -1,0 +1,22 @@
+uuid: 096e30d6-36e7-423f-9005-b3b11d481599
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.user_groups
+id: node.user_groups.status
+field_name: status
+entity_type: node
+bundle: user_groups
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

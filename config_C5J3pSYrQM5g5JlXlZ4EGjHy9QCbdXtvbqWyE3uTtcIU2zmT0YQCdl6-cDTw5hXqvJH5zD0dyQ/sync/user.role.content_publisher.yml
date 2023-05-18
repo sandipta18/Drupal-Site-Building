@@ -1,0 +1,22 @@
+uuid: 763f74ab-a8bb-46ae-8cae-2898949030e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - field_ui
+    - node
+    - toolbar
+id: content_publisher
+label: 'Content Publisher'
+weight: 5
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer node form display'
+  - 'create page content'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'edit any page content'

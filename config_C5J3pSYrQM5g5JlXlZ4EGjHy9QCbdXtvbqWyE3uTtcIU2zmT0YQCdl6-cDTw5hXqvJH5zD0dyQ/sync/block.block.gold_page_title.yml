@@ -1,0 +1,20 @@
+uuid: 239af7fb-847c-4b1c-a14e-591e4394403f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gold
+_core:
+  default_config_hash: Nkqc1IcJuGwAkFApKjgQziMMQv_Qpr30DJNASUZZYwo
+id: gold_page_title
+theme: gold
+region: logo
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

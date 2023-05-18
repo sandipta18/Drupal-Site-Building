@@ -1,0 +1,32 @@
+uuid: 7dc12064-ddf6-43e3-8e16-7d44dbc7ce10
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+  module:
+    - comment
+    - contact
+    - filter
+    - forum
+    - shortcut
+    - system
+    - user_online_status
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'administer forums'
+  - 'administer user online status'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format webform_default'

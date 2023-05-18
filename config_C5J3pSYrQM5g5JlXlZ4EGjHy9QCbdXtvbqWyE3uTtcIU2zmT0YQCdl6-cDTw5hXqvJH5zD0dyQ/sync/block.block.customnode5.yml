@@ -1,0 +1,30 @@
+uuid: 70986989-1a22-493c-bc21-f6b7859f6892
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:43d02de7-7f1b-4ed5-aa0e-5e3edcfdb70d'
+  module:
+    - block_content
+    - system
+  theme:
+    - mili
+id: customnode5
+theme: mili
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:43d02de7-7f1b-4ed5-aa0e-5e3edcfdb70d'
+settings:
+  id: 'block_content:43d02de7-7f1b-4ed5-aa0e-5e3edcfdb70d'
+  label: 'Custom Node 5'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/5

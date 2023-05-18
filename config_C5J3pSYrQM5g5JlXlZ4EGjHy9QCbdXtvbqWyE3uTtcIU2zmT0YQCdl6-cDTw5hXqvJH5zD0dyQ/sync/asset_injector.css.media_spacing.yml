@@ -1,0 +1,16 @@
+uuid: 242ac77d-67f7-48c5-adb2-9188185e271f
+langcode: en
+status: true
+dependencies: {  }
+id: media_spacing
+label: media-spacing
+code: |-
+  .media-spacing .views-col {
+  	padding-left:20px;
+  	padding-right:20px;
+  }
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

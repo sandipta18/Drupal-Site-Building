@@ -1,0 +1,25 @@
+uuid: 8206e70a-3201-4996-9f8f-f2b9fd6251f3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aa0b475d-9edd-4122-97f3-9511f1f8d2e1'
+  module:
+    - block_content
+  theme:
+    - mili
+id: getapp
+theme: mili
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:aa0b475d-9edd-4122-97f3-9511f1f8d2e1'
+settings:
+  id: 'block_content:aa0b475d-9edd-4122-97f3-9511f1f8d2e1'
+  label: 'Get App'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

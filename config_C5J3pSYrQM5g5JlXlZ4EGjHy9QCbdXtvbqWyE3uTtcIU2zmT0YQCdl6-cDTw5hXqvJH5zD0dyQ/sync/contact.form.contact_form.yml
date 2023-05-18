@@ -1,0 +1,12 @@
+uuid: 2f6c1fde-5aab-43e7-9da6-80a523790f33
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'Contact Form'
+recipients:
+  - sandiptasardar77@gmail.com
+reply: ''
+weight: 0
+message: 'Thanks '
+redirect: ''

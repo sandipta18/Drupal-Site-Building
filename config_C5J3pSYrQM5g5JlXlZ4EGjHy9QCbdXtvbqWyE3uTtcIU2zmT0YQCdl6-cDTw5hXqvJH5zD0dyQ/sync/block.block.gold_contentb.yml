@@ -1,0 +1,25 @@
+uuid: c52f66aa-ab1b-4eda-b46b-2751ff238f17
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cb3b73ce-fc9c-4d8a-a7a3-b8e03b1eb08c'
+  module:
+    - block_content
+  theme:
+    - gold
+id: gold_contentb
+theme: gold
+region: logo
+weight: 0
+provider: null
+plugin: 'block_content:cb3b73ce-fc9c-4d8a-a7a3-b8e03b1eb08c'
+settings:
+  id: 'block_content:cb3b73ce-fc9c-4d8a-a7a3-b8e03b1eb08c'
+  label: 'Content B'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

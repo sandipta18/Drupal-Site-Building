@@ -1,0 +1,25 @@
+uuid: 3d43b1b2-a22c-469d-931b-d02ca7f42a4b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d5bee5e6-9499-46ae-b983-14cc9a84e4e7'
+  module:
+    - block_content
+  theme:
+    - mili
+id: widget
+theme: mili
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:d5bee5e6-9499-46ae-b983-14cc9a84e4e7'
+settings:
+  id: 'block_content:d5bee5e6-9499-46ae-b983-14cc9a84e4e7'
+  label: Widget
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

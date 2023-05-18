@@ -1,0 +1,15 @@
+uuid: 7271a2c9-5f16-4ba0-aa1a-79a315459d57
+langcode: en
+status: true
+dependencies: {  }
+id: language_color
+label: language-color
+code: |-
+  .language-color .language-link {
+  	color: white;
+  }
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

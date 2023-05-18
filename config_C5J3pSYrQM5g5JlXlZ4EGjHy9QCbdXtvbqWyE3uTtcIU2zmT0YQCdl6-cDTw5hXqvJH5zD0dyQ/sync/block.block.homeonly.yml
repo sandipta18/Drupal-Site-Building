@@ -1,0 +1,30 @@
+uuid: 50992d3e-28b1-4a5a-83ba-eaba1b5d09c7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6d9b1321-0fe0-40b3-86ad-1bdacbc9a9e9'
+  module:
+    - block_content
+    - system
+  theme:
+    - mili
+id: homeonly
+theme: mili
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:6d9b1321-0fe0-40b3-86ad-1bdacbc9a9e9'
+settings:
+  id: 'block_content:6d9b1321-0fe0-40b3-86ad-1bdacbc9a9e9'
+  label: 'Home Only'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

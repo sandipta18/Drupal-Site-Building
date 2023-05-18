@@ -1,0 +1,17 @@
+uuid: 93404e06-3389-4e19-a466-828826aeb53d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Events
+type: events
+description: 'This is where we track all the events regarding movies,music,sports around the world'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

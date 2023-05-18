@@ -1,0 +1,30 @@
+uuid: 4da52170-1385-46be-b674-f5695a4bf7e0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:08e332de-920c-4439-86e0-cd11b2ebca4a'
+  module:
+    - block_content
+    - system
+  theme:
+    - mili
+id: articledescription
+theme: mili
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:08e332de-920c-4439-86e0-cd11b2ebca4a'
+settings:
+  id: 'block_content:08e332de-920c-4439-86e0-cd11b2ebca4a'
+  label: 'Article Description'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /article

@@ -1,0 +1,22 @@
+uuid: b47589f6-ee88-4340-abc5-a477cf1c9629
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: LOWXEGDu4TeUgntHKyCZ17GaqOllWNKDlUNB3zXrPZM
+id: mili_messages
+theme: mili
+region: highlighted
+weight: -15
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

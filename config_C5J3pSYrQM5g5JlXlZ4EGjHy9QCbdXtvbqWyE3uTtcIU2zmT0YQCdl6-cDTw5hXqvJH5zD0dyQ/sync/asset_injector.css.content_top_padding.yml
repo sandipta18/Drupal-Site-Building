@@ -1,0 +1,21 @@
+uuid: 8b83955c-13df-4508-8506-f26507bbcdf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: content_top_padding
+label: content-top-padding
+code: |-
+  .content-top-padding .views-field {
+  	padding-top : 10px;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: mili
+contexts: {  }
+conditions_require_all: true

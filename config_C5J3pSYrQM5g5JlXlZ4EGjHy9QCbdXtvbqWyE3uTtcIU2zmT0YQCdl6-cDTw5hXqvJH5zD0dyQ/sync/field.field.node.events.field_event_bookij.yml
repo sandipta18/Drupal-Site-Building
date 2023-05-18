@@ -1,0 +1,28 @@
+uuid: 152eaa0e-7e3c-4ce9-a29a-22fb644e1763
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_bookij
+    - node.type.events
+  module:
+    - link
+id: node.events.field_event_bookij
+field_name: field_event_bookij
+entity_type: node
+bundle: events
+label: 'Event Booking'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://paytminsider.com/'
+    title: 'Paytm Insider'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

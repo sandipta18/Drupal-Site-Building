@@ -1,0 +1,20 @@
+uuid: 42675443-8a08-4965-9655-7eb5e4e24a04
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.related
+  module:
+    - text
+id: taxonomy_term.related.description
+field_name: description
+entity_type: taxonomy_term
+bundle: related
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

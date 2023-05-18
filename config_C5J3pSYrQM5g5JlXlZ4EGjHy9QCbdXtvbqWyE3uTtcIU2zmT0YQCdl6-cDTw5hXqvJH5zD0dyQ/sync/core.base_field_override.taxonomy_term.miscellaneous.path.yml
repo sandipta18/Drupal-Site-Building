@@ -1,0 +1,20 @@
+uuid: 459a9b5b-3ecf-44b6-9736-a33d4fcd76a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.miscellaneous
+  module:
+    - path
+id: taxonomy_term.miscellaneous.path
+field_name: path
+entity_type: taxonomy_term
+bundle: miscellaneous
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path
