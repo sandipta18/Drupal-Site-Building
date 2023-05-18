@@ -18,6 +18,7 @@ module:
   coffee: 0
   comment: 0
   config: 0
+  config_filter: 0
   config_split: 0
   config_translation: 0
   contact: 0
@@ -26,7 +27,6 @@ module:
   customModule: 0
   datetime: 0
   dblog: 0
-  devel: 0
   devel_generate: 0
   devel_php: 0
   dynamic_page_cache: 0
@@ -35,7 +35,6 @@ module:
   field_ui: 0
   file: 0
   filter: 0
-  google_api_client: 0
   gtranslate: 0
   help: 0
   history: 0

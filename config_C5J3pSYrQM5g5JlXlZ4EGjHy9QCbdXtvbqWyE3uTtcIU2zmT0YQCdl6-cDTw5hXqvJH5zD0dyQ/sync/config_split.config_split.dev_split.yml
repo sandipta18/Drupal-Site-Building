@@ -1,0 +1,20 @@
+uuid: 92c1f26a-b04a-4a5f-95c5-42b73b0df292
+langcode: en
+status: true
+dependencies: {  }
+id: dev_split
+label: 'Dev Split'
+description: 'First Split Configuration'
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/dev_split
+module:
+  devel: 0
+  google_api_client: 0
+theme: {  }
+complete_list:
+  - devel.settings
+  - google_api_client.google_api_classes
+  - google_api_client.google_api_services
+partial_list: {  }
