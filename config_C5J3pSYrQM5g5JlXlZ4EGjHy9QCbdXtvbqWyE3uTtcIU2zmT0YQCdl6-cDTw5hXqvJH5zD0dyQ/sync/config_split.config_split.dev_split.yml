@@ -17,4 +17,5 @@ complete_list:
   - devel.settings
   - google_api_client.google_api_classes
   - google_api_client.google_api_services
-partial_list: {  }
+partial_list:
+  - oauth_login_oauth2.settings
